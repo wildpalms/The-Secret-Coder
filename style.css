@@ -1,0 +1,110 @@
+
+
+h1 {
+	
+}
+h2 {
+	
+}
+h3 {
+	
+}
+h4 {
+	
+}
+p {
+	
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #f9f0de;
+}
+
+.wrapper {
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+}
+.block {
+   width: 100%;
+   height: 400px;
+   padding-top: 60px;
+   padding-bottom: 20px;
+   text-align: center;
+   
+}
+.encrypt {
+   background-color: #fafafa;
+}
+.decrypt {
+   background-color: #F3F5F7;
+}
+.row-one {
+   margin-bottom: 1em;
+}
+.cta {
+   font-size: 1.7em;
+   color: #193B44;
+}
+p.cta {
+   color:#666868;
+}
+.row-two {
+   text-align: center;
+   padding-left: 20%;
+   padding-right: 20%;
+}
+.field {
+   margin-bottom: 1em;
+}
+input#text {
+   width: 100%;
+   height: 6em;
+   padding: 1em;
+}
+input#code {
+   width: 100%;
+   height: 6em;
+   padding: 1em;
+}
+.interactions {
+   display: flex;  
+   margin-bottom: 2em;
+}
+input.btn {
+   width: 50%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 1.2em;
+   border-radius: 5px;
+   border: none;
+}
+input.btn#text_value {
+   background-color: #193B44; 
+   margin-left: 5px;
+   color: #fff;
+}
+input.btn#text_reset {
+   background-color: #3FA9F5;
+   color: #fff;
+}
+input.btn#code_value {
+   background-color: #193B44; 
+   margin-left: 5px;
+   color: #fff;
+}
+input.btn#code_reset {
+   background-color: #3FA9F5;
+   color: #fff;
+}
+.result-text {
+   color: #A3A7AA;
+   font-size: 1.2em;
+   padding-left: 15%;
+   padding-right: 15%;
+   text-align: center;   
+}
+textarea, input {
+   outline: none; 
+}
