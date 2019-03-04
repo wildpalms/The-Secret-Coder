@@ -1,6 +1,5 @@
 # The-Secret-Coder
 It's a simple website to post an encrypted message onto a feed, where each user can decode each message and respond. 
-
 It's quite basic to start with and will evolve and improve as I learn new things, or better ways of doing them.
 
 
@@ -19,3 +18,4 @@ Feature Road Map
 - 'Copy text to clipboard' button on each encoded post
 - Decoder page with message input
 - Password access to Decoder page
+
