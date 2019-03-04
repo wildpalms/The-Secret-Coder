@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>The Secret Coder</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="The Secret Coder">
+		<meta name="description" content="A way for the Fantastic Four to comunicate">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Favicons -->
+		<!-- End Favicons -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+
+	<body class="home-style">
+		<div class="wrapper">
+			<div class="block encrypt">
+			   <div class="row-one">
+			      <label class="cta">Add a message to encrypt</label>
+			   </div>
+			   <div class="row-two">
+			      <div class="field">
+			         <input type="text" id="text" name="name" value="" />
+			      </div> 
+			      <div class="interactions">
+			         <input class="btn" type="button" id="text_reset" value=" Reset "/>
+			         <input class="btn" type="button" id="text_value" value="Encrypt Now"/>
+			       </div>
+			    </div>
+			   <div class="result">
+			      <p class="cta">Your encrypted Message Is...</p>
+			      <p class="result-text" id="encrypted"></p>
+			   </div>
+			</div>
+
+			<div class="block decrypt">
+			   <div class="row-one">
+			      <label class="cta">Add the code to decrypt</label>
+			   </div>
+			   <div class="row-two">
+			      <div class="field">
+			         <input type="text" id="code" name="name" value="" />
+			      </div> 
+			      <div class="interactions">
+			         <input class="btn" type="button" id="code_reset" value=" Reset "/>
+			         <input class="btn" type="button" id="code_value" value="Decrypt Now"/>
+			       </div>
+			    </div>
+			   <div class="result">
+			      <p class="cta">Your decrypted message is...</p>
+			      <p class="result-text" id="decrypted"></p>
+			   </div>
+	</div>
+		<!-- end content -->
+	</body>
+
+</html>
+
